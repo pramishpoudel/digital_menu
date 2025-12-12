@@ -72,5 +72,5 @@ This project allows users to create QR codes that link to digital restaurant men
 
  
 #Image
-![Alt Text](Qr.png)
-![Alt Text](qr1.png)
+![Alt Text](restaurent/Qr.png)
+![Alt Text](restaurent/qr1.png)
