@@ -70,10 +70,7 @@ This project allows users to create QR codes that link to digital restaurant men
 - `media/`: Directory for generated QR code images
 - `requirements.txt`: Python dependencies
 
-## Contributing
-
-Feel free to submit issues or pull requests for improvements.
-
-## License
-
-This project is open-source. Use at your own risk.
+ 
+#Image
+![Alt Text](Qr.png)
+![Alt Text](qr1.png)
