@@ -15,10 +15,13 @@
             <a class="navbar-brand" href="#">Digital restaurant Menu</a>
         </div>  
     </nav>
-
-     
     <div class="container mt-5 align-items-center text-center" style="width:600px; border:1px solid black; padding:20px; border-radius:10px;">
         <h3>QR Code for {{ res_name }} Menu</h3>
-        <img src="{{ qr_image_url }}" alt="QR Code">
+        <img  src="{{ qr_image_url }}" alt="QR Code">
+        <div class="mt-3">
+            <a href="{% url 'generate_qr_code' %}" download="{{file_name}}" class="btn btn-primary">Download QR Code</a>
+            <br>
+            <small>Thanks for using our Services</small>
+
 </body>
 </html>
